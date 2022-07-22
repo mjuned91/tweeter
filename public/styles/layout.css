@@ -21,6 +21,16 @@ body {
   font-family: Source Sans Pro;
 }
 
+main {
+  margin: auto;
+  display: flex;
+  width: 90%;
+  background-color: #f4f1ec;
+  background-image: url("https://www.transparenttextures.com/patterns/robots.png");
+  flex-direction: column;
+  align-items: center;
+}
+
 /*
  * Additional CSS can be defined below or in other CSS files, as per instructions
  */
