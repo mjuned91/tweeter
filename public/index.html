@@ -50,7 +50,7 @@
     <main class="container">
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
-        <form action="/tweets" method="POST">
+        <form action="/tweets" method="POST" id="new-tweet-form">
           <textarea name="text" id="tweet-text" placeholder="What are you humming about?"></textarea>
           <div id="tweet-button">
             <button type="submit">Tweet</button>
@@ -88,7 +88,7 @@
           </header>
           <div class="tweet-content">If I have seen further it is by standing on the shoulders of giants</div>
           <footer class="tweet-footer">
-            <div>10 days ago</div>
+            <div class="tweet-date">10 days ago</div>
             <div class="tweet-icons">
               <i class="fas fa-flag"></i>
               <i class="fas fa-retweet"></i>
