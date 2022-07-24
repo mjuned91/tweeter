@@ -6,8 +6,6 @@
 
 $(document).ready(function() {
 
-const data = [];
-
 const renderTweets = function(tweets) {
   $('.tweet-container').empty();
   for (let tweet of tweets) {
@@ -39,11 +37,9 @@ const createTweetElement = function(tweetData) {
   return $tweet;
 };
 
-renderTweets(data);
-
 const loadTweets = function() {
-  $.get("/tweets/", function(newTweet) {
-    renderTweets(newTweet.reverse());
+  $.get("/tweets/", function(loadedTweets) {
+    renderTweets(loadedTweets.reverse());
   });
 };
 
