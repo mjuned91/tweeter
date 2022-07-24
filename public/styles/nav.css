@@ -1,4 +1,6 @@
 nav {
+  position: fixed;
+  top: 0;
   color: #FFFFFF;
   background-color: #4056A1;
   background-image: url("https://www.transparenttextures.com/patterns/robots.png");
