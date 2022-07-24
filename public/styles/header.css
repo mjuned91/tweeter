@@ -1,9 +1,10 @@
 #header-image {
+  padding-top: 150px;
   color: #FFFFFF;
   background-color: #f7b900;
   background-image: url("https://www.transparenttextures.com/patterns/robots.png");
   display: flex;
-  height: 400px;
+  height: 550px;
   width: 100%;
   display: flex;
   flex-direction: column;
