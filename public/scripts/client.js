@@ -24,7 +24,7 @@ $(document).ready(function() {
       </div>
       <span class="username">${tweetData.user.handle}</span>
     </header>
-    <div class="tweet-content">${tweetData.content.text}</div>
+    <div class="tweet-content">${escape(tweetData.content.text)}</div>
     <footer class="tweet-footer">
       <div class="tweet-date">${timeago.format(tweetData.created_at)}</div>
       <div class="tweet-icons">
@@ -49,16 +49,20 @@ $(document).ready(function() {
     event.preventDefault();
     const maxChar = 140;
     const inputChar = $(this).find("#tweet-text").val().length;
+    $(".error-field-empty").hide;
+    $(".error-max-char").hide;
 
     if (!inputChar) {
-      alert("The text field is empty.");
+      $(".error-field-empty").slideDown("slow");
     } else if (inputChar > maxChar) {
-      alert("Character count has exceeded the max allowable characters.");
+      $(".error-max-char").slideDown("slow");
     } else {
       const newTweet = $(this).serialize();
       $.post("/tweets/", newTweet, () => {
         $(this).find("#tweet-text").val("");
         $(this).find(".counter").val(maxChar);
+        $(".error-max-char").hide();
+        $(".error-field-empty").hide();
         loadTweets();
       });
     }
