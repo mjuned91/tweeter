@@ -10,3 +10,9 @@
   flex-direction: column;
   align-items: center;
 }
+
+@media only screen and (min-width: 768px) {
+  #header-image {
+    width: 80%;
+  }
+}
