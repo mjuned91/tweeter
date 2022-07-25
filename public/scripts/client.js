@@ -53,8 +53,10 @@ $(document).ready(function() {
     $(".error-max-char").hide;
 
     if (!inputChar) {
+      $(".error-max-char").hide();
       $(".error-field-empty").slideDown("slow");
     } else if (inputChar > maxChar) {
+      $(".error-field-empty").hide();
       $(".error-max-char").slideDown("slow");
     } else {
       const newTweet = $(this).serialize();
