@@ -6,14 +6,21 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Screenshots
 
-The Tweeter Main Page
+Tweeter Main Page
 
-!["The Tweeter Main Page"](https://github.com/mjuned91/tweeter/blob/master/docs/tweeter_main_page_1.png?raw=true)
+!["Tweeter Main Page"](https://github.com/mjuned91/tweeter/blob/master/docs/tweeter_main_page_1.png?raw=true)
 
+Tweeter Main Page in the Tablet View
 
-The Tweeter Main Page in the Tablet View
+!["Tweeter Main Page in the Tablet View"](https://github.com/mjuned91/tweeter/blob/master/docs/tweeter_main_page_2.png?raw=true)
 
-!["The Tweeter Main Page in the Tablet View"](https://github.com/mjuned91/tweeter/blob/master/docs/tweeter_main_page_2.png?raw=true)
+Error Message when the text field is empty
+
+!["Error Message when the text field is empty"](https://github.com/mjuned91/tweeter/blob/master/docs/err_msg_field_empty.png?raw=true)
+
+Error Message when the max character limit has been exceeded
+
+!["Error Message when the max character limit has been exceeded"](https://github.com/mjuned91/tweeter/blob/master/docs/err_msg_max_char.png?raw=true)
 
 ## Getting Started
 
