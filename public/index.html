@@ -55,14 +55,14 @@
     <main class="container">
       <section class="new-tweet">
         <h2>Compose Tweet</h2>
-        <span class="error-field-empty">
+        <span class="error-message" id="error-field-empty">
           <i class="fas fa-exclamation-triangle" style= "color: red"></i>
           The text field is empty.
           <i class="fas fa-exclamation-triangle" style= "color: red"></i>
         </span>
-        <span class="error-max-char">
+        <span class="error-message" id="error-max-char">
           <i class="fas fa-exclamation-triangle" style= "color: red"></i>
-          Character count has exceeded the max allowable characters.
+          Character count has exceeded the max allowable character limit.
           <i class="fas fa-exclamation-triangle" style= "color: red"></i>
         </span>
         <form action="/tweets" method="POST" id="new-tweet-form">
