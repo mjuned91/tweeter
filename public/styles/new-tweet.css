@@ -26,3 +26,11 @@ button {
 output {
   font-size: 20px;
 }
+
+.error-field-empty {
+  display: none;
+}
+
+.error-max-char {
+  display: none;
+}
