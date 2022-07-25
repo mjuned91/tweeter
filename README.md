@@ -6,6 +6,8 @@ This repository is the starter code for the project: Students will fork and clon
 
 ## Screenshots
 
+The Tweeter Main Page
+
 !["The Tweeter Main Page"](https://github.com/mjuned91/tweeter/blob/master/docs/err_msg_field_empty.png?raw=true)
 
 ## Getting Started
