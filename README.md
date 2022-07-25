@@ -8,7 +8,12 @@ This repository is the starter code for the project: Students will fork and clon
 
 The Tweeter Main Page
 
-!["The Tweeter Main Page"](https://github.com/mjuned91/tweeter/blob/master/docs/err_msg_field_empty.png?raw=true)
+!["The Tweeter Main Page"](https://github.com/mjuned91/tweeter/blob/master/docs/tweeter_main_page_1.png?raw=true)
+
+
+The Tweeter Main Page in the Tablet View
+
+!["The Tweeter Main Page in the Tablet View"](https://github.com/mjuned91/tweeter/blob/master/docs/tweeter_main_page_2.png?raw=true)
 
 ## Getting Started
 
