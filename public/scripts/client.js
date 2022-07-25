@@ -49,22 +49,22 @@ $(document).ready(function() {
     event.preventDefault();
     const maxChar = 140;
     const inputChar = $(this).find("#tweet-text").val().length;
-    $(".error-field-empty").hide;
-    $(".error-max-char").hide;
+    $("#error-field-empty").hide;
+    $("#error-max-char").hide;
 
     if (!inputChar) {
-      $(".error-max-char").hide();
-      $(".error-field-empty").slideDown("slow");
+      $("#error-max-char").hide();
+      $("#error-field-empty").slideDown("slow");
     } else if (inputChar > maxChar) {
-      $(".error-field-empty").hide();
-      $(".error-max-char").slideDown("slow");
+      $("#error-field-empty").hide();
+      $("#error-max-char").slideDown("slow");
     } else {
       const newTweet = $(this).serialize();
       $.post("/tweets/", newTweet, () => {
         $(this).find("#tweet-text").val("");
         $(this).find(".counter").val(maxChar);
-        $(".error-max-char").hide();
-        $(".error-field-empty").hide();
+        $("#error-max-char").hide();
+        $("#error-field-empty").hide();
         loadTweets();
       });
     }
